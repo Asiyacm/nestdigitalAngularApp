@@ -19,12 +19,12 @@ export class AddCourseComponent {
 
   readValue=()=>
  {
-  let data:any=
+  let course:any=
   {"courseTitle":this.title,"courseDescription":this.description, "courseDuration":this.duration,"courseDate":this.date,"courseVenue":this.venue}
-console.log(data)
+console.log(course)
 
 
-this.api.addCourse(data).subscribe(
+this.api.addCourse(course).subscribe(
   (response:any)=>{
   
     console.log(response)

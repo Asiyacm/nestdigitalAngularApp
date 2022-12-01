@@ -38,6 +38,12 @@ export class EmployeeRegisterComponent {
   
     console.log(data)
 
+    if (this.pass==this.cpass) {
+      alert("Registered successfully")
+    } else {
+      alert("Password and ConfirmPassword doesnt match")
+    }
+
   }
 
 
