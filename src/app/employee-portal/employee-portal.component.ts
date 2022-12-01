@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class EmployeePortalComponent {
 
+  empid=""
+  password=""
+
+
+  
+  readValue=()=>
+  {
+    let data:any=
+    {"username":this.empid,"password":this.password}
+  
+    console.log(data)
+
+  }
+
 }

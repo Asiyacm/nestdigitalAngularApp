@@ -18,6 +18,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
 import { Navigation2Component } from './navigation2/navigation2.component';
 import { Navigation3Component } from './navigation3/navigation3.component';
+import { FormsModule } from '@angular/forms';
 
 
 const myRoute:Routes=
@@ -93,7 +94,8 @@ const myRoute:Routes=
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
