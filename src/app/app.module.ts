@@ -13,6 +13,7 @@ import { EmployeeRegisterComponent } from './employee-register/employee-register
 import { AddCourseComponent } from './add-course/add-course.component';
 import { ViewCourseComponent } from './view-course/view-course.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
+import { ViewFriendsComponent } from './view-friends/view-friends.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
     EmployeeRegisterComponent,
     AddCourseComponent,
     ViewCourseComponent,
-    AddFriendsComponent
+    AddFriendsComponent,
+    ViewFriendsComponent
   ],
   imports: [
     BrowserModule,
