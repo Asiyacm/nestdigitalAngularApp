@@ -8,6 +8,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { EmployeePortalComponent } from './employee-portal/employee-portal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
     AboutUsComponent,
     GalleryComponent,
     ContactUsComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    EmployeePortalComponent
   ],
   imports: [
     BrowserModule,
