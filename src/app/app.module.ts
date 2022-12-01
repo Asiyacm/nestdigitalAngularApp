@@ -16,6 +16,7 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
+import { Navigation2Component } from './navigation2/navigation2.component';
 
 
 const myRoute:Routes=
@@ -84,7 +85,8 @@ const myRoute:Routes=
     ViewCourseComponent,
     AddFriendsComponent,
     ViewFriendsComponent,
-    NavigationComponent
+    NavigationComponent,
+    Navigation2Component
   ],
   imports: [
     BrowserModule,
